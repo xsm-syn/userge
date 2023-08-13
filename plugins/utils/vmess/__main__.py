@@ -67,7 +67,7 @@ async def vmess(message: Message):
                   f" **🔰 Vmess TLS Link :**"
                   f"**`{x[0]}`\n"
                   f"**━━━━━━━━━━━━━━━━**\n"
-                  f" **🔰 Vmess HTTP Link :**"
+                  f" **🔰 Vmess Http Link :**"
                   f"**`{x[1].strip()}`\n"
                   f"**━━━━━━━━━━━━━━━━**\n"
                   f" **🔰 Vmess GRPC Link :**"
