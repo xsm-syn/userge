@@ -31,7 +31,7 @@ async def ssh(message: Message):
         u = replied.strip().split(':')[1]
         p = replied.strip().split(':')[2]
         e = replied.strip().split(':')[3]
-        param = f":6969/adduser/exp??user={u}&password={p}&exp={e}&quota=100&limitip=2"
+        param = f":6969/adduser/exp?user={u}&password={p}&exp={e}&quota=100&limitip=2"
         url = ("http://"+d+param)
         async with req.get(url, headers=header) as resp:
             if resp.status != "success":
